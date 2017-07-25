@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
 <addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
 	<id>fn_get_logo_simple</id>
-	<version>1.0</version>
-	<default_language>en</default_language>
+	<version>1.0.0</version>
 	<name><![CDATA[Function - fn_get_logo_simple]]></name>
 	<description><![CDATA[Adds a function to pull a logo in a more simplistic manner. This function is less concerned with runtimes or image pairing and more with just grabbing a logo.]]></description>
 	<priority>10</priority>
 	<position>0</position>
 	<status>active</status>
 	<default_language>en</default_language>
+	<compatibility>
+		<core_version>
+			<min>4.3.4</min>
+			<!-- Untested below v4.3.4 -->
+		</core_version>
+	</compatibility>
 	<authors>
 		<author>
 			<name>Dhaupin - CreadevDotOrg</name>
